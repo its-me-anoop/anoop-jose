@@ -211,6 +211,10 @@
         @apply py-16 px-16 bg-neutral-light;
     }
 
+    .about-page h1 {
+        @apply text-xl my-4;
+    }
+
     .page-title {
         @apply text-3xl font-bold mb-8 text-primary-dark;
     }

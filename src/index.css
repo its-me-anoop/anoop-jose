@@ -1244,6 +1244,13 @@ video {
   padding-right: 4rem;
 }
 
+.about-page h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .bio, .education, .experience, .skills {
   margin-bottom: 2rem;
 }
@@ -1410,24 +1417,6 @@ video {
 .submit-button:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.contact-info {
-  margin-top: 2rem;
-}
-
-.contact-info-item {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  --tw-text-opacity: 1;
-  color: rgb(26 32 44 / var(--tw-text-opacity));
-}
-
-.contact-info-icon {
-  margin-right: 0.5rem;
-  --tw-text-opacity: 1;
-  color: rgb(192 86 33 / var(--tw-text-opacity));
 }
 
 .static {
