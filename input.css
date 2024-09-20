@@ -144,4 +144,65 @@
     .skill-chip {
         @apply bg-code-dark text-neutral-light px-3 py-1 rounded-full text-sm font-medium hover:bg-accent-dark transition duration-300;
     }
+
+    /* || Project */
+    .hero-project {
+        @apply bg-neutral-light py-4 px-8;
+    }
+    
+    .hero-project-container {
+        @apply container mx-auto px-4 py-16;
+    }
+    
+    .hero-project-details {
+        @apply flex flex-col md:flex-row items-center;
+    }
+    
+    .hero-project-image {
+        @apply md:w-1/2 mb-8 md:mb-0;
+    }
+    
+    .hero-project-img {
+        @apply rounded-lg shadow-lg;
+    }
+    
+    .hero-project-info {
+        @apply md:w-1/2 md:pl-8;
+    }
+    
+    .hero-project-title {
+        @apply text-3xl mb-4 text-accent-dark;
+    }
+    
+    .hero-project-description {
+        @apply text-lg text-primary-dark;
+    }
+    
+    .hero-project-button {
+        @apply mt-6 primary-btn;
+    }
+    
+    .projects-section-title {
+        @apply text-3xl text-primary-dark text-center py-8 bg-neutral-light;
+    }
+    
+    .project-container {
+        @apply mx-auto bg-neutral-light;
+    }
+    
+    .project-details {
+        @apply p-2;
+    }
+    
+    .project-details h3 {
+        @apply text-2xl mb-2 text-primary-dark;
+    }
+    
+    .project-details p {
+        @apply text-gray-600 mb-4;
+    }
+    
+    .project-link {
+        @apply inline-block bg-accent-dark text-white font-bold py-2 px-4 rounded hover:bg-accent transition duration-300;
+    }
 }
