@@ -44,4 +44,25 @@
     .main-nav-icon {
         @apply mr-2 md:hidden text-accent-light;
     }
+
+    /* || Footer */
+    .footer {
+        @apply bg-primary-dark text-neutral-light py-8 px-8;
+    }
+
+    .footer-container {
+        @apply container mx-auto flex flex-col md:flex-row justify-between items-center;
+    }
+
+    .footer-container p {
+        @apply mb-4 md:mb-0;
+    }
+
+    .social-links {
+        @apply flex space-x-4;
+    }
+
+    .social-links a {
+        @apply hover:text-accent-light transition duration-300;
+    }
 }

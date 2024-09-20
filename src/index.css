@@ -714,6 +714,101 @@ video {
   }
 }
 
+/* || Footer */
+
+.footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 32 44 / var(--tw-bg-opacity));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.footer-container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .footer-container {
+    max-width: 1536px;
+  }
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+.footer-container p {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container p {
+    margin-bottom: 0px;
+  }
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.social-links a {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.social-links a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(237 137 54 / var(--tw-text-opacity));
+}
+
 .block {
   display: block;
 }
