@@ -115,4 +115,33 @@
     .hero-section .social-links a {
         @apply text-lg mr-4 text-primary-dark hover:text-accent transition duration-300 flex mb-8 items-center gap-2;
     }
+
+    /* || Skills Section */
+    .skills-section {
+        @apply py-16 px-8 bg-primary;
+    }
+
+    .skills-section-title {
+        @apply text-3xl font-bold mb-8 text-neutral-light;
+    }
+    
+    .skills-container {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+    }
+    
+    .skill-category {
+        @apply mb-6;
+    }
+    
+    .category-title {
+        @apply text-xl font-semibold mb-4 text-neutral-light;
+    }
+    
+    .skill-chips {
+        @apply flex flex-wrap gap-2;
+    }
+    
+    .skill-chip {
+        @apply bg-code-dark text-neutral-light px-3 py-1 rounded-full text-sm font-medium hover:bg-accent-dark transition duration-300;
+    }
 }
