@@ -1233,6 +1233,56 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+/* || About Page */
+
+.about-page {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.bio, .education, .experience, .skills {
+  margin-bottom: 2rem;
+}
+
+.bio h2, .education h2, .experience h2, .skills h2 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(192 86 33 / var(--tw-text-opacity));
+}
+
+.bio p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+}
+
+.education ul, .experience ul, .skills ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+}
+
+.education li, .experience li, .skills li {
+  margin-bottom: 0.5rem;
+}
+
+.education h2 svg, .experience h2 svg, .skills h2 svg {
+  margin-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(221 107 32 / var(--tw-text-opacity));
+}
+
 .static {
   position: static;
 }
