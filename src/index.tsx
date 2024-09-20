@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/Home-Page';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/projects-page';
+import ContactPage from './components/contact-page';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ root.render(
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

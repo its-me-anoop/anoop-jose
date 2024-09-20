@@ -4,6 +4,8 @@
  */
 import React from 'react';
 import { FaGraduationCap, FaBriefcase, FaCode } from 'react-icons/fa';
+import CV from '../assets/documents/cv.pdf';
+import { Link } from 'react-router-dom';
 
 const AboutPage: React.FC = () => {
     return (
@@ -79,6 +81,10 @@ const AboutPage: React.FC = () => {
 
                 </ul>
             </section>
+            <div className="cta-buttons">
+                    <Link to="/projects" className="primary-btn">View My Work</Link>
+                    <a href={CV} download className="secondary-btn">Download CV</a>
+                </div>
         </div>
     );
 };

@@ -213,29 +213,78 @@
 
     .page-title {
         @apply text-3xl font-bold mb-8 text-primary-dark;
-      }
+    }
     
-      .bio, .education, .experience, .skills {
+    .bio, .education, .experience, .skills {
         @apply mb-8;
-      }
+    }
     
-      .bio h2, .education h2, .experience h2, .skills h2 {
+    .bio h2, .education h2, .experience h2, .skills h2 {
         @apply text-2xl font-semibold mb-4 text-accent-dark flex items-center;
-      }
+    }
     
-      .bio p {
+    .bio p {
         @apply text-lg text-primary-dark;
-      }
+    }
     
-      .education ul, .experience ul, .skills ul {
+    .education ul, .experience ul, .skills ul {
         @apply list-disc list-inside text-primary-dark;
-      }
+    }
     
-      .education li, .experience li, .skills li {
+    .education li, .experience li, .skills li {
         @apply mb-2;
-      }
+    }
     
-      .education h2 svg, .experience h2 svg, .skills h2 svg {
+    .education h2 svg, .experience h2 svg, .skills h2 svg {
         @apply mr-2 text-accent;
-      }
+    }
+
+    /* || Contact Page */
+    .contact-page {
+        @apply py-16 px-8 bg-neutral-light;
+    }
+
+    .contact-container {
+        @apply max-w-3xl mx-auto;
+    }
+
+    .contact-title {
+        @apply text-3xl font-bold mb-8 text-primary-dark;
+    }
+
+    .contact-form {
+        @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4;
+    }
+
+    .form-group {
+        @apply mb-4;
+    }
+
+    .form-label {
+        @apply block text-primary-dark text-sm font-bold mb-2;
+    }
+
+    .form-input {
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-primary-dark leading-tight focus:outline-none;
+    }
+
+    .form-textarea {
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-primary-dark leading-tight focus:outline-none h-32;
+    }
+
+    .submit-button {
+        @apply bg-accent-dark hover:bg-accent text-white font-bold py-2 px-4 rounded focus:outline-none transition duration-300;
+    }
+
+    .contact-info {
+        @apply mt-8;
+    }
+
+    .contact-info-item {
+        @apply flex items-center mb-4 text-primary-dark;
+    }
+
+    .contact-info-icon {
+        @apply mr-2 text-accent-dark;
+    }
 }

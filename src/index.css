@@ -1283,6 +1283,153 @@ video {
   color: rgb(221 107 32 / var(--tw-text-opacity));
 }
 
+/* || Contact Page */
+
+.contact-page {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.contact-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+}
+
+.contact-title {
+  margin-bottom: 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+}
+
+.contact-form {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+}
+
+.form-input {
+  width: 100%;
+  -webkit-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  height: 8rem;
+  width: 100%;
+  -webkit-appearance: none;
+          appearance: none;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.submit-button {
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 86 33 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.submit-button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 107 32 / var(--tw-bg-opacity));
+}
+
+.submit-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-info-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  --tw-text-opacity: 1;
+  color: rgb(26 32 44 / var(--tw-text-opacity));
+}
+
+.contact-info-icon {
+  margin-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(192 86 33 / var(--tw-text-opacity));
+}
+
 .static {
   position: static;
 }
